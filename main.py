@@ -1,4 +1,12 @@
 import os
 
-print(os.listdir())
-print('22')
+def menu():
+    print("[INSERT NAME HERE]\n")
+    print("" \
+    "\nPlease Select an option:" \
+    "\n1.   Show Books" \
+    "\n2.   Add Book" \
+    "\n3.   Remove Book" \
+    "\n4.   Exit")
+    choice = int(input())
+    return choice
