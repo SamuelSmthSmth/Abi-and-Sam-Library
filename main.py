@@ -1,4 +1,5 @@
 import os
+import json
 
 def menu():
     print("[INSERT NAME HERE]\n")
@@ -10,6 +11,3 @@ def menu():
     "\n4.   Exit")
     choice = int(input())
     return choice
-
-def menu_ft(option):
-    pass
