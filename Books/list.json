@@ -1,10 +1,12 @@
-[{
-    "title": "Nineteen Eighty-Four",
-    "author": "George Orwell",
-    "genre": "Dystopian"
-},
-{
-    "title": "Twilight",
-    "author": "Stephanie Meyers",
-    "genre": "Fantasy"
-}]{"title": "Nineteen Eighty-Four", "author": "George Orwell", "genre": "Dystopian"}
+[
+    {
+        "title": "Nineteen Eighty-Four",
+        "author": "George Orwell",
+        "genre": "Dystopian"
+    },
+    {
+        "title": "Twilight",
+        "author": "Stephanie Meyers",
+        "genre": "Fantasy"
+    }
+]
