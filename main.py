@@ -10,3 +10,6 @@ def menu():
     "\n4.   Exit")
     choice = int(input())
     return choice
+
+def menu_ft(option):
+    pass
