@@ -1,5 +1,11 @@
 import os
 import json
+def readbooks():
+    with open('Books/list.json', 'r') as f:
+        books = json.load(f)
+    with open('Books/list.json', 'a') as f:
+        json.dump(books[0], f)
+
 def menu():
     print("[INSERT NAME HERE]\n")
     print("" \
@@ -13,3 +19,6 @@ def menu():
 
 def menu_ft(option):
     if option == 1:
+        pass
+
+readbooks()
