@@ -14,15 +14,13 @@ def writebooks(booktags): #booktags is a dict type
         json.dump(books, f, indent = 2)
 
 def delbooks(booktags): #booktags is a library
-    with open('Books/list.json', 'r+') as f:
+    with open('Books/list.json', 'r') as f:
         books = json.load(f) #books is a list of dictionaries
         books.remove(booktags)
         print(books)
+    with open('Books/list.json', 'w') as f:
         f.seek(0) #moves cursor to the start
         json.dump(books, f, indent = 2)
-
-
-
 
 def menu():
     print("" \
