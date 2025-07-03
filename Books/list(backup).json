@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "genre": "Dystopian"
+  },
+  {
+    "title": "Twilight",
+    "author": "Stephanie Meyers",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Testaments",
+    "author": "Margaret Atwood",
+    "genre": "Dystopian"
+  },
+  {
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "genre": "American"
+  },
+  {
+    "title": "1",
+    "author": "2",
+    "genre": "3"
+  }
+]
