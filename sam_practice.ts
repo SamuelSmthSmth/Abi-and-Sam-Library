@@ -12,3 +12,6 @@ num2 = 4
 
 console.log(`${add()} is the default answer`)
 console.log(`${add(num1,num2)} is the answer using the variables`)
+
+let userInput = prompt('Please enter your name: ');
+console.log(`Oh so your name is ${userInput}...cool!`)
