@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Deno",
+      "type": "pwa-node",
+      "request": "launch",
+      "program": "${file}",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": [
+        "run"
+        // Removed "--allow-all"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
