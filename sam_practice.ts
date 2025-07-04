@@ -1,9 +1,14 @@
-function proclaim(status?: string) {
-  console.log(`I'm ${status || 'not ready...'}`);
+//Multiplication with two numbers
+
+let add = function (x = 1,y = 1) {
+  let result: number = x * y
+  return result
 }
 
-proclaim();
-proclaim('ready?');
-proclaim('ready!');
+let num1, num2: number;
 
-console.log("This is a test to see if the recompiled code works like I want")
+num1 = 2
+num2 = 4
+
+console.log(`${add()} is the default answer`)
+console.log(`${add(num1,num2)} is the answer using the variables`)
