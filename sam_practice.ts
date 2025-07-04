@@ -5,3 +5,5 @@ function proclaim(status?: string) {
 proclaim();
 proclaim('ready?');
 proclaim('ready!');
+
+console.log("This is a test to see if the recompiled code works like I want")
