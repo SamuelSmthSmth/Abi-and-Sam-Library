@@ -1,0 +1,27 @@
+{
+  "name": "folio",
+  "version": "1.0.0",
+  "description": "Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build:css": "tailwindcss -i src/input.css -o public/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelSmthSmth/Abi-and-Sam-Library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelSmthSmth/Abi-and-Sam-Library/issues"
+  },
+  "homepage": "https://github.com/SamuelSmthSmth/Abi-and-Sam-Library#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "daisyui": "^5.0.46",
+    "electron": "^37.2.3",
+    "tailwindcss": "^4.1.11"
+  }
+}
